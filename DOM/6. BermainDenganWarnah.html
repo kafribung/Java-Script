@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Latihan DOM</title>
+	<style>
+	html, body {
+		height: 100%;
+	}
+	body {
+		text-align: center;
+	}
+	.warna {
+		background-color: lime;
+	}
+	.kotak {
+		width: 25px;
+		height: 25px;
+		margin: 2px auto;
+	}
+	.merah{
+		background-color: red;
+	}
+	.hijau {
+		background-color: green;
+	}
+	.biru {
+	 	background-color: blue;
+	}
+</style>
+</head>
+<body>
+	<h1>Bermain Dengan Warna</h1>
+	<button type="button" id="tomUbh">Ubah Warna</button>	
+	<!--DIsini ada button2, dibuat menggunakan js -->
+	<br><br><br>
+	<div class="kotak merah"></div>
+	<input type="range" name="slideMerah" min="0" max="255">
+	
+	<div class="kotak hijau"></div>
+	<input type="range" name="slideHijau" min="0" max="255">
+
+	<div class="kotak biru"></div>
+	<input type="range" name="slideBiru" min="0" max="255">
+
+
+	<script src="6.DOM.js"></script>
+
+</body>
+</html>
